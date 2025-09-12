@@ -1,4 +1,22 @@
 html,
+/* Бүх текстэд: Lato (кириллтэй) → Noto Sans → системийн фонт */
+body {
+  font-family: "Lato", "Noto Sans", system-ui, -apple-system, "Segoe UI",
+               Roboto, Arial, sans-serif;
+}
+
+/* Гарчигт: эхэнд нь кириллтэй script фонт (Lobster) */
+.text h1 {
+  font-family: "Lobster", "Lato", "Noto Sans", cursive, sans-serif;
+}
+
+/* Хэрвээ .name зэрэгт script фонт хэрэглэлээ гэж бодвол мөн Lobster-ийг эхэнд тавина */
+.name {
+  font-family: "Lato", "Noto Sans", system-ui, -apple-system, "Segoe UI",
+               Roboto, Arial, sans-serif;
+}
+
+
 body {
     width: 100%;
     height: 100%;
