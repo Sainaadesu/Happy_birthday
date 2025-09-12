@@ -113,6 +113,7 @@ body {
     animation: fuego 0.2s 6.5s infinite;
     z-index: 2;
 }
+/* test */
 
 /* ============================================== Animation Fire
       */
@@ -150,7 +151,7 @@ body {
     transform: translate(-50%, -300px);
     opacity: 0;
     animation: inCenter 500ms 6s ease-out forwards;
-    z-index: 1; /* keep above the cake */
+    z-index: 2; /* keep above the cake */
 }
 
 @keyframes inCenter {
