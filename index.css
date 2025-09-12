@@ -150,7 +150,7 @@ body {
 
 .num-candles {
     position: absolute;
-    top: 210px; /* aligns with cake top */
+    top: 215px; /* aligns with cake top */
     left: 50%;
     scale: 0.7;
     display: flex;
@@ -250,7 +250,7 @@ body {
 }
 
 .text h1 {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Lobster', cursive;
     font-weight: 400;
     font-style: normal;
     font-size: clamp(26px, 6vw, 44px);
